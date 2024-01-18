@@ -1,0 +1,10 @@
+#1. When it was bright, HSV was better
+# When the light was bright, RGB was better.
+# My thresholding range was lower_limits = np.array([5, 100, 100]) and upper_limits = np.array([15, 255, 255])
+
+
+#2. when I turned on the lights, it was better to track my object.
+
+#3. When I changed my phone brightness, it helped my code to track the color.
+
+#4. It didn't show a lot of difference, but my phone robust to brightness.
