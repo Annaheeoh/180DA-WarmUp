@@ -1,0 +1,14 @@
+#2 - When I tried more similar sounding words, the performance was less  successful. 
+- When there was a play music in the background, the software became less reliable. 
+
+(a)what can you with your given speech program in the project?
+In our project, this speech program would function as a detector or recognizer when we made an order or command. Also, for the communication, we can use this program for giving some feedback. 
+
+(b) How complex do you want your speech recognition to be? How complex can you reasonably expect your speech recognition to be?
+The speech recognition would be no that complex because the accuracy can be less if we add too much complexity to our words. I think the words or sounds must be very distinctive. 
+
+(c) What level of speech accuracy do you need? In other words, how quickly do you need an accurate recognition? Does a missed recognition hurt the progress of the game?
+I believe the level of speech accuracy must be 90% successful. For example, when I try the same words 10 times, it must get it correctly at least 9 times. 
+
+(d) Do you need specific hardware, specific conditions, etc. to have a reasonable confidence that it works well enough?
+I think I will need microphone for speech recognition. I can use Macbook and if the accuracy is not good, I can use a speaker.
