@@ -43,22 +43,22 @@ client.on_connect = on_connect
 client.on_disconnect = on_disconnect
 client.on_message = on_message
 
-# 2. connect to a broker using one of the connect*() functions.
+# connect to a broker using one of the connect*() functions.
 # client.connect_async("test.mosquitto.org")
 client.connect_async('mqtt.eclipseprojects.io')
 
-# 3. call one of the loop*() functions to maintain network traffic flow with the broker.
+# call one of the loop*() functions to maintain network traffic flow with the broker.
 client.loop_start()
 #client.publish("ece180d/test/team6", "hi this is johanna", qos=1)
 
-# 4. use subscribe() to subscribe to a topic and receive messages.
+# use subscribe() to subscribe to a topic and receive messages.
 while True: 
     pass
 
 
-# 5. use publish() to publish messages to the broker.
+# use publish() to publish messages to the broker.
 # payload must be a string, bytearray, int, float or None.
 
-# 6. use disconnect() to disconnect from the broker.
+# use disconnect() to disconnect from the broker.
 client.loop_stop()
 client.disconnect()

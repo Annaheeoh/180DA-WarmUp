@@ -1,7 +1,6 @@
 import paho.mqtt.client as mqtt
 import time
 import numpy as np
-
 # Define callbacks - functions that run when events happen.
 
 # The callback for when the client receives a CONNACK response from the server.
