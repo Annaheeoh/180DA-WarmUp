@@ -37,7 +37,7 @@ class game():
 		height = 600	
 		self.screen = pygame.display.set_mode((width, height))
 
-		self.bg = pygame.image.load("background.jpg")
+		self.bg = pygame.image.load("background1.jpg")
 		self.RB = pygame.image.load("rock.png").convert_alpha()
 		self.PB = pygame.image.load("paper.png").convert_alpha()
 		self.SB = pygame.image.load("scissors.png").convert_alpha()

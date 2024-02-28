@@ -47,3 +47,4 @@ class RockPaperScissorsBot:
 if __name__ == "__main__":
     rps_bot = RockPaperScissorsBot()
     rps_bot.play_game()
+
